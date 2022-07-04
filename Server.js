@@ -30,7 +30,7 @@ app.use('/admin', AdminRoutes);
 app.use('/mail', MailRoutes);
 
 const server = app.listen(PORT, () => {
-    console.log(`Server running on PORT -> ${PORT}`);
+    console.log(`Server running on PORT --> ${PORT}`);
 });
 
 app.get('/', async (req, res, next) => {
