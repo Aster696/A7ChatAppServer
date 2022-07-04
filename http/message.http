@@ -1,0 +1,11 @@
+###Send message
+POST http://localhost:5700/message/send-message
+
+###Display messages
+GET http://localhost:5700/message/display-messages/123
+
+###Update message
+PATCH http://localhost:5700/message/update-message/123
+
+###Delete message
+DELETE http://localhost:5700/message/delete-message/123

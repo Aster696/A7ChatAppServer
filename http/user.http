@@ -1,0 +1,47 @@
+### User routes
+GET http://localhost:5700/
+
+### error route
+GET http://localhost:5700/abc
+
+### display users
+GET http://localhost:5700/user/display-users/123456789012345789012345
+
+### display user by id
+GET http://localhost:5700/user/display-user/6287fcb697e6f759739d8be7
+ 
+### register
+POST http://localhost:5700/user/register
+Content-Type: application/json
+
+{
+    "userName": "RockBox",
+    "email": "a@gmail.com",
+    "contact": "1234567890",
+    "password": "Alister7@$$"
+}
+
+### user login
+POST http://localhost:5700/user/login
+Content-Type: application/json
+
+{
+    "email": "asterrebeiro24@gmail.com",
+    "password": "Alister7@$$"
+}
+
+### update user
+PATCH http://localhost:5700/user/update-user/123
+
+### delete user
+DELETE http://localhost:5700/user/delete-user/123
+
+### Reset password
+### forgot password
+POST http://localhost:5700/user/forgot-password
+Content-Type: application/json
+
+{
+    "email": "asterrebeiro24@gmail.com"
+}
+

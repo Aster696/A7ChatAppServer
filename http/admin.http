@@ -1,0 +1,2 @@
+### delete User
+DELETE http://localhost:5700/admin/delete-user/62a13cd02c1e440a2d5f84e9
